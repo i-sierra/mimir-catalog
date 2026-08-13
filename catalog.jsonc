@@ -1,0 +1,46 @@
+{
+    /* ###################### */
+    /* ###    Platform    ### */
+    /* ###################### */
+    "platform": {
+        "native": {
+            "name": "Native host platform",
+            "repo": "https://github.com/i-sierra/mimir-platform-native",
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    },
+    /* ###################### */
+    /* ###    Services    ### */
+    /* ###################### */
+    "services": {
+        "telemetry": {
+            "name": "Telemetry service",
+            "repo": "https://github.com/i-sierra/mimir-service-telemetry",
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    },
+    /* ###################### */
+    /* ###   Utilities    ### */
+    /* ###################### */
+    "utilities": {
+        "console-logger": {
+            "name": "Console logger",
+            "repo": "https://github.com/i-sierra/mimir-utility-console-logger",
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    },
+    /* ###################### */
+    /* ###    Drivers     ### */
+    /* ###################### */
+    "drivers": {},
+    /* ###################### */
+    /* ###     Buses      ### */
+    /* ###################### */
+    "buses": {}
+}
